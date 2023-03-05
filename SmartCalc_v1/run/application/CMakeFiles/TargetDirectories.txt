@@ -1,0 +1,4 @@
+/home/elmir/Projects/C7_SmartCalc_v1.0-0/src/application/CMakeFiles/Smartcalc.dir
+/home/elmir/Projects/C7_SmartCalc_v1.0-0/src/application/CMakeFiles/edit_cache.dir
+/home/elmir/Projects/C7_SmartCalc_v1.0-0/src/application/CMakeFiles/rebuild_cache.dir
+/home/elmir/Projects/C7_SmartCalc_v1.0-0/src/application/CMakeFiles/Smartcalc_autogen.dir

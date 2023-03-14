@@ -1,10 +1,10 @@
 #ifndef SRC_GREP_S21_GREP_H_
 #define SRC_GREP_S21_GREP_H_
 
-#include <stdio.h>
-#include <stdlib.h>
 #include <getopt.h>
 #include <regex.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int grep_c(char *z, char *str, int argc);
 int grep_e(char *z, char *str, int argc);

@@ -8,7 +8,7 @@ TEST_FILEE="Makefile"
 TEST_FILEER="cat.c"
 echo "" > log.txt
 
-for var in -b -e -n -s -t -v # -E -T --number-nonblank --number --squeeze-blank
+for var in -b -e -n -s -t -v #--number-nonblank --number --squeeze-blank -E -T ### 'cat' GNU options
 do
           TEST1="$var $TEST_FILE"
           echo "$TEST1"

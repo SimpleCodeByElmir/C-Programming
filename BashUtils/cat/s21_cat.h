@@ -1,10 +1,10 @@
 #ifndef SRC_CAT_S21_CAT_H_
 #define SRC_CAT_S21_CAT_H_
 
+#include <getopt.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <getopt.h>
 #include <unistd.h>
 
 int cat_b(char *z);

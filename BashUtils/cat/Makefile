@@ -1,16 +1,16 @@
-NAME		= s21_cat
-HEADERS		= $(wildcard *.h)
-OBJ			= $(patsubst %.c,%.o,$(wildcard *.c))
-CC			= gcc
-CFLAGS		= -Wall -Werror -Wextra
+NAME = s21_cat
+HEADERS	= $(wildcard *.h)
+OBJ = $(patsubst %.c,%.o,$(wildcard *.c))
+CC = gcc
+CFLAGS = -Wall -Werror -Wextra
 
-all:		$(NAME)
+all: $(NAME)
 
-$(NAME):	$(OBJ)
+$(NAME): $(OBJ)
 	$(CC) $(CFLAGS) $^ -o $@
 	rm -f $(OBJ)
 
-$(OBJ):		$(HEADERS)
+$(OBJ): $(HEADERS)
 
 clean:
 	rm -f $(OBJ)
@@ -18,7 +18,7 @@ clean:
 fclean:		clean
 	rm -f $(NAME)
 
-re:			fclean all
+re: fclean all
 
-.PHONY:		all, clean, fclean, re
-.SECONDARY:	$(OBJ) 
+.PHONY: all, clean, fclean, re
+.SECONDARY: $(OBJ) 

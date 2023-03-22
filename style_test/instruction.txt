@@ -1,4 +1,3 @@
-cp ".clang-fromat" file from here (linters/) to the dir with .c or .h files.
-
-Run command "clang-format -n [file]" to check for style mistakes.
-If mistakes are found, then run command "clang-format -i [file]".
+cp ".clang-fromat" to the directory with .c and .h files.
+run command "clang-format -n [file]" to check for style mistakes.
+If mistakes are found, run command "clang-format -i [file]".

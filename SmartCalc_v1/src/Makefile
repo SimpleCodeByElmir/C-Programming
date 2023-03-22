@@ -49,7 +49,7 @@ clean:
 
 check: test
 	cppcheck --enable=all --suppress=missingIncludeSystem --inconclusive --check-config ./exe/*.c ./exe/*.h
-	#cp ../materials/linters/.clang-format ./exe
+	#cp ../style_test/.clang-format ./exe
 	#clang-format -n ./exe/*.c ./exe/s21_smartcalc.h ./exe/main.cpp ./exe/mainwindow.cpp ./exe/mainwindow.h
 	#rm -rf ./exe/.clang-format
 ifeq ($(OS), Darwin)

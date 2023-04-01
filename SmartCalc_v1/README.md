@@ -8,7 +8,7 @@ See Task.md
 
 ## Screenshots
 
-![./screenshots/1_default.jpeg](./screenshots/1_default.jpeg)           ![./screenshots/2_expr_x.jpeg](./screenshots/2_expr_x.jpeg)
+![./screenshots/1_default.jpeg](./screenshots/1_default.jpeg)           	![./screenshots/2_expr_x.jpeg](./screenshots/2_expr_x.jpeg)
 ![./screenshots/3_graph1.jpeg](./screenshots/3_graph1.jpeg)
 ![./screenshots/4_graph2.jpeg](./screenshots/4_graph2.jpeg)
 ![./screenshots/5_er_lastchar.png](./screenshots/5_er_lastchar.png)

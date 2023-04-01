@@ -8,7 +8,7 @@ See Task.md
 
 ## Screenshots
 
-![./screenshots/1_default.jpeg]
+![./screenshots/1_default.jpeg](./screenshots/1_default.jpeg)
 ![2_expr_x.jpeg]
 ![3_graph1.jpeg]
 ![4_graph2.jpeg]

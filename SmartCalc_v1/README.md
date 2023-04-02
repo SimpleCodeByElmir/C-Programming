@@ -20,8 +20,8 @@ See Task.md
 ![./screenshots/7_er_parenth.png](./screenshots/7_er_parenth.png)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![./screenshots/8_er_operator.png](./screenshots/8_er_operator.png)
 
 ### Keyboard shortcuts:
-\# Enter – ‘=’ (do the calculation);  
-\# Ctrl+L – ‘AC’ (All Clear);  
-\# Ctrl+S – ‘draw graph’;  
-\# Ctrl+D – ‘show / hide’ (the graph);  
-\# Ctrl+W – close the Program.  
+Enter means ‘=’ (do the calculation);  
+Ctrl+L means ‘AC’ (All Clear);  
+Ctrl+S means ‘draw graph’;  
+Ctrl+D means ‘show / hide’ (the graph);  
+Ctrl+W means close the Program.  

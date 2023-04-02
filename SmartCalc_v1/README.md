@@ -17,4 +17,3 @@ See Task.md
 ![./screenshots/5_er_lastchar.png](./screenshots/5_er_lastchar.png)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![./screenshots/6_er_unksym.png](./screenshots/6_er_unksym.png)  
   
 ![./screenshots/7_er_parenth.png](./screenshots/7_er_parenth.png)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![./screenshots/8_er_operator.png](./screenshots/8_er_operator.png)
-

@@ -7,8 +7,7 @@ Works on: MACOS, Linux, Windows.
 
 See Task.md  
 
-## Screenshots
-### Description
+## Description
 
 ![./screenshots/1_default.jpeg](./screenshots/1_default.jpeg)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![./screenshots/2_expr_x.jpeg](./screenshots/2_expr_x.jpeg)  
   
@@ -21,8 +20,8 @@ See Task.md
 ![./screenshots/7_er_parenth.png](./screenshots/7_er_parenth.png)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![./screenshots/8_er_operator.png](./screenshots/8_er_operator.png)
 
 ### Keyboard shortcuts:
-\# Enter – ‘=’ (do the calculation);
-\# Ctrl+L – ‘AC’ (All Clear);
-\# Ctrl+S – ‘draw graph’;
-\# Ctrl+D – ‘show / hide’ (the graph);
-\# Ctrl+W – close the Program.
+\# Enter – ‘=’ (do the calculation);  
+\# Ctrl+L – ‘AC’ (All Clear);  
+\# Ctrl+S – ‘draw graph’;  
+\# Ctrl+D – ‘show / hide’ (the graph);  
+\# Ctrl+W – close the Program.  

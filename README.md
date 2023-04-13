@@ -8,4 +8,4 @@ All tasks were given by the Sberbank Programming School 21 while I was studying 
 
 
 #### ./others
-Just algorithms and etc.
+Just algorithms.

@@ -1,31 +1,18 @@
 #include <stdio.h>
+#include <string.h>
 
-char* my_strtok(char *a, char *b); 
+char* my_strtok(char *a, char *b) {
+    
+    return a;
+}
 
 int main() {
 
-    char* a = "Hello, hey, How";
-    char* b = " ";
-    my_strtok(a, b);
-
+    char a[50] = "Hello, hey, How";
+    char *b = strtok(a, " ");
+	while (b != NULL) {
+	  printf("%s\n", b);
+	  b = strtok(NULL, " ");
+	}
     return 0;
-}
-
-char* my_strtok(char *a, char *b) {
-
-    int count = 0;
-    int flag = 0;
-    while (a[count] != '\0') {
-        flag = 0;
-        if (a[count] == *b) {
-            printf("\n");
-            flag = 1;
-        }
-    if (flag == 0) {
-    printf("%c", a[count]);
-    }
-    count++;
-    }
-
-    return a;
 }

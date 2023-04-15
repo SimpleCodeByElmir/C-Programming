@@ -10,7 +10,7 @@ char *my_strchr(char *str, int c) {
     }
     *str++;
   }
-  
+
   if (ret == NULL) {
     ret = "0";
   }
@@ -21,6 +21,6 @@ int main() {
 
   char *str = "Hello";
   printf("%s\n", my_strchr(str, 'l'));
-  
+
   return 0;
 }

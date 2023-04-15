@@ -1,34 +1,33 @@
 #include <stdio.h>
-    
-int my_strcompare(char *a, char* b);
 
+int my_strcompare(char *a, char *b) {
 
-int main() {
-    
-    char* a = "Hello";
-    char* b = "Hllo";
-    int c = my_strcompare(a,b);
-    if (c == 0) {
-        printf("%s\n", a);
+  int i = 0;
+  int ret = 0;
+
+  while (a[i] != '\0') {
+    if (a[i] == b[i]) {
+      i++;
+    } else {
+      ret = 1;
+      break;
     }
-    if (c == 1) {
-        printf("NOT EQUAL\n");
-    }
-    return 0;
+  }
+
+  return ret;
 }
 
 
-int my_strcompare(char *a, char* b) {
-    int count = 0;
-    int flag = 0;
-    while (a[count] != '\0') {
-        if (a[count] == b[count]) {
-            count++;
-        }
-        else {
-            flag = 1;
-            break;
-        }
-    }
-    return flag;
-    }
+
+
+int main() {
+
+  char *a = "Hello";
+  char *b = "Hllo";
+  if (my_strcompare(a, b) == 0) {
+    printf("%s\n", a);
+  } else {
+    printf("NOT EQUAL\n");
+  }
+  return 0;
+}
